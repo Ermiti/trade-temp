@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    gap: 0.8rem;
+padding-left: 2rem;
+align-items: first baseline;
+margin-top: -1rem;
+border-radius: 2rem;
+
+}
+div img {
+    height: 1.5rem;
+    margin: auto;
+
+}

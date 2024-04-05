@@ -1,0 +1,103 @@
+.left-side {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+position: absolute;
+}
+
+.h5 {
+  margin: 0;
+  font-size: 0.8rem;
+  padding-left: 2rem;
+  color: gray;
+}
+
+.h {
+  margin-bottom: 0.5rem;
+  padding-left: 0;
+  font-size: 0.85rem;
+}
+
+.blue {
+  background-color: aqua;
+  padding: 0rem 2rem;
+  height: 3rem;
+}
+
+.blue h5 {
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  padding: 1rem;
+  padding-top: 0;
+
+}
+
+.table input {
+  padding: 0.5rem 3rem;
+  width: 14rem;
+  border: 0.1rem solid gainsboro;
+  border-radius: 0.34rem;
+
+}
+
+.table button {
+  margin: 0 rem;
+
+}
+
+.form img {
+  margin: 0.4rem 0.7rem;
+  position: absolute;
+}
+
+.buy {
+  border: 0.145rem solid #6DF6FF;
+  border-radius: 1rem;
+  margin: 27.5rem 17rem;
+
+}
+.button{
+  border: none;
+  border-radius: 0.6rem;
+ width: 20rem;
+ height: 2.5rem;
+  font-size: 1rem;
+  background-color:#6DF6FF ;
+
+}
+
+/* mediumvioletred */
+.form,
+.form div,
+.form h5 {
+  padding: 0;
+}
+
+.gap {
+  box-sizing: border-box;
+  gap: 8.5rem;
+  justify-content: center;
+  padding: 0;
+  display: flex;
+}
+.input-btn{
+  width: 5rem;
+  position: absolute;
+  margin-left: 15rem;
+  height: 1.9rem;
+  margin-top: 0.14rem;
+  border-radius: 0.2rem;
+  background-color: #DEFBFD;
+  border: none;
+}
