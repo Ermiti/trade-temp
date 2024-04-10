@@ -40,6 +40,7 @@ position: absolute;
   width: 20rem;
   padding: 1rem;
   padding-top: 0;
+  border-radius: 1rem;
 
 }
 
@@ -63,9 +64,14 @@ position: absolute;
 
 .buy {
   border: 0.145rem solid #6DF6FF;
-  border-radius: 1rem;
+
   margin: 27.5rem 17rem;
 
+}
+.sell {
+  border: 0.145rem solid mediumvioletred;
+  border-radius: 1rem;
+  margin: auto -15rem;
 }
 .button{
   border: none;
@@ -73,10 +79,15 @@ position: absolute;
  width: 20rem;
  height: 2.5rem;
   font-size: 1rem;
-  background-color:#6DF6FF ;
+
 
 }
-
+.button-buy{
+  background-color:#6DF6FF ;
+}
+.button-sell{
+  background-color:mediumvioletred ;
+}
 /* mediumvioletred */
 .form,
 .form div,
@@ -86,7 +97,7 @@ position: absolute;
 
 .gap {
   box-sizing: border-box;
-  gap: 8.5rem;
+  gap: 6.5rem;
   justify-content: center;
   padding: 0;
   display: flex;
@@ -98,6 +109,12 @@ position: absolute;
   height: 1.9rem;
   margin-top: 0.14rem;
   border-radius: 0.2rem;
-  background-color: #DEFBFD;
+
   border: none;
+}
+.input-btn-buy{
+  background-color: #DEFBFD;
+}
+.input-btn-sell{
+  background-color: #f7e9ff;
 }
