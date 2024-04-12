@@ -1,0 +1,71 @@
+.flexC{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+
+}
+.div {
+    padding: 0;
+    gap: 0;
+    overflow-y:scroll;
+
+}
+.btn{
+    margin: auto;
+    padding: 0.6rem 2.6rem;
+    border: 0.1rem solid #6DF6FF;
+    border-radius: 2.3rem;
+    background: white;
+    width: 12rem;
+}
+.row{
+    gap: 2rem;
+    margin: 1rem auto;
+    border-radius: 0.4rem;
+    height: 3.1rem;
+    padding: 0 1.4rem;
+}
+.h6{
+    margin: -1.7rem;
+    width: 4rem;
+    font-size: 0.8rem;
+    color: gray;
+}
+h6{
+    margin: -1.4rem;
+    width: 4rem;
+}
+.grin{
+    color: green;
+}
+.red{
+    color: deeppink;
+}
+.logo{
+    margin-top: 0.4rem;
+    width: 2.5rem; 
+    height: 2.5rem;
+    
+}
+
+.rightSide{
+    height: 48rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: ghostwhite;
+    margin: 0 67rem;
+    
+}
+#search{
+    position: absolute;
+    margin: 5.6rem 2rem;
+}
+#inptRS{
+    background: white;
+    border: none;
+    height: 2.1rem;
+    width: 14rem;
+    border-radius: 0.6rem;
+    margin: 0 auto;
+}
