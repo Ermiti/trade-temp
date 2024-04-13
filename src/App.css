@@ -56,12 +56,10 @@ position: absolute;
   margin: 0 rem;
 
 }
-
 .form img {
   margin: 0.4rem 0.7rem;
   position: absolute;
 }
-
 .buy {
   border: 0.145rem solid #6DF6FF;
 
@@ -79,8 +77,6 @@ position: absolute;
  width: 20rem;
  height: 2.5rem;
   font-size: 1rem;
-
-
 }
 .button-buy{
   background-color:#6DF6FF ;

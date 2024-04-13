@@ -6,6 +6,7 @@ import { Row } from './RSrow'
 export function RS(){
     return(
         
+
         <div className='rightSide div'>
             <h5 className='abs' style={{margin: '3rem 0 1rem 1rem'}}>Cryptocurrencies list</h5>
             <input type="text" id="inptRS"/>
